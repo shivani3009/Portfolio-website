@@ -1,3 +1,1 @@
-Take a look at my portfolio website
-
-![Screenshot (64)](https://github.com/shivani3009/Portfolio-website/assets/101388584/82361506-4a14-42ed-8e8c-e6eac6c318a2)
+![Screenshot (65)](https://github.com/shivani3009/Portfolio-website/assets/101388584/27d9384d-732b-4cef-a14c-a50ee996c3dc)
