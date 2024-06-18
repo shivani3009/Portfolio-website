@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shivani M</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#internship">Internships</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project1">Projects</a></li>
+           
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      
+      <li><a href="Shivani M" onclick="toggleMenu()">Shivani M</a></li>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#internship" onclick="toggleMenu()">Internships</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#project1" onclick="toggleMenu()">Projects</a></li>
+       
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="girl.img" alt="Shivani profile picture" class="picd" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shivani M</h1>
+        <p class="section__text__p2">    Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Shivani Resume(2).pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin-logo-white-png-images--pictures--becuo-16.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/shivani-m-621296230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="./assets/github-icon-38985-Windows.ico"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/shivani3009'"
+          />
+        </div>
+      </div>
+    </section>
+    <hr><hr><hr>
+
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="Laptop.Img"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="Laptop.Img"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Objective</h3>
+                        <pre>  Fresher <br />Intrest:Cloud Engineer</pre>
+            </div>
+            <div class="details-container">
+              <img
+                src="Course.img"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <pre>B.E Bachelors Degree <br />3rd year</pre>
+            </div>
+          </div>
+          <div class="text-container">
+            <b><h2>"Enthusiastic and highly motivated professional seeking a challenging position with your
+              esteemed organization. Aspiring to contribute my skills, knowledge, dedication, and
+              determination to enhance the progress of the organization!"</h2>
+            </b>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <hr><hr><hr>
+
+
+    <section id="internship">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Internships</h1>
+      <div class="about-containers">
+        <div class="details-container">
+            <div class="article-contain">
+                    <div>
+                        <h3>Web Development</h3><br>
+                        <h4>One-week internship:</h4>
+                        <b>HTML/CSS, JavaScript, frameworks, real-world tasks</b>
+                    </div>
+             </div>
+        </div>
+        <div class="details-container">
+            <div class="article-contain">          
+                    <div>
+                        <h3>UI/UX Designing</h3><br>
+                        <h4>One month internship:</h4>
+                        <b>User Interface/ User experience using Figma </b>
+                    </div>
+            </div>
+        </div>
+    </div>
+       
+    </div>
+    <div class="details-container">
+      <div class="article-contain">          
+              <div>
+                  <h3>Cloud Computing</h3><br>
+                  <h4>One-week internship:</h4>
+                  <b> Learn about the basics of cloud computing and cloud service providers like AWS, Microsoft Azure and Google cloud platform </b>
+              </div>
+      </div>
+  </div>
+    
+    </section>
+    <hr><hr><hr>
+
+    <section id="skills">
+        <p class="section__text__p1">Look Through My</p>
+        <h1 class="title">Skills</h1>
+        <div class="about-containers">
+            <div class="details-container">
+                <div class="article-container">
+                   
+                    <article>
+                        <div>
+                            <br>
+                            <h3>Frontend Development</h3><br>
+                            <h2>o HTML <br></h2>
+                            <br>
+                            <h2>o CSS <br></h2>
+                            <br>
+                            <h2>o JavaScript <br></h2>
+                            <br>
+                            
+
+                        </div>
+                       </article>
+                 </div>
+             </div>    
+            <div class="details-container">
+                <div class="article-container">
+                   
+                    <article>
+                        <div>
+                            <br>
+                            <h3>Backend Development and database</h3><br>
+                            <h2>o Java <br></h2>
+                            <br>
+                            <h2>o C<br></h2>
+                            <br>
+                            <h2>o Git <br></h2>
+                            <br>
+                            <h2>o Mysql <br></h2>
+                        </div>
+                       </article>
+                 </div>
+             </div>    
+            <div class="details-container">
+                <div class="article-container">
+                    
+                    <article>
+                        <div>
+                            <br>
+                            <h3>Cloud Services</h3><br>
+                            <h2> Microsoft Azure <br></h2>
+                            <br>
+                            <h2>Google cloud platform <br></h2>
+                            <br>
+                          
+                        </div>
+                       </article>
+                 </div>
+             </div>    
+        </div>
+        
+    </section>
+
+<hr><hr><hr>
+    <section id="project1">
+        <p class="section__text__p1">About My</p>
+        <h1 class="title">Project 1</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <b><h2>Portfolio Website </h2><pre>- Html | CSS | Javascript</pre> <br>
+                      <h2>  My Portfolio Website! It's a dynamic platform illustrating my proficiency as a Frontend Developer. 
+                        Through projects like scientific calculator and more, I showcase my skills in various fields.
+                         "</h2></b>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section> 
+    <hr><hr>
+    <section id="project2">
+        <p class="section__text__p1">About My</p>
+        <h1 class="title">Project 2</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                 <b><h1>Women Safety App </h1><pre>Java | XML | Android Studio</pre> <br>
+                  <h2> 
+                    "The features of the app is to enhance personal security,
+                    provide location based assistance , send SOS messages to
+                    families and friends , Shake detector."</h2>
+                 </b>
+                </div>
+                
+            </div>
+            <div class="section__pic-container">
+      
+            </div>
+        </div>
+       
+    </section> 
+<hr><hr>
+    <section id="project3">
+        <p class="section__text__p1">About My</p>
+        <h1 class="title">Project 3</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+            
+            </div>
+            <div class="about-details-container">
+              <div class="text-container">
+               <b><h1>Notes pro app </h1><pre>Java | XML | Android Studio| Firebase</pre> <br>
+                <h2> 
+                  "The features of the app is it gives authentication using 
+                  firebase and can create notes, update and delete notes"</h2>
+               </b>
+              </div>
+            
+        </div>
+      
+   
+
+      </section> 
+    
+      <hr><hr><hr>
+    
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Email.img" class="icon contact-icon">
+                <p><a href="mshi21cs081@rmkcet.ac.in">mshi21cs081@rmkcet.ac.in</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="Linkedin.img" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/shivani-m-621296230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/">LinkedIn.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#About" onclick="location.href='#about'">About</a></li>
+                    <li><a href="#Internship" onclick="location.href='#internship'">Internship</a></li>
+                    <li><a href="#Skills" onclick="location.href='#skills'">Skills</a></li>
+                    <li><a href="#Projects" onclick="location.href='#project1'">Projects</a></li>
+                    <li><a href="#Stats" onclick="location.href='#stats'">Stats</a></li>
+                    <li><a href="#Contact" onclick="location.href='#contact'">Contact</a></li>
+                </ul>
+            </div>
+      </nav>
+      <p>Copyright &#169; Shivani M. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
